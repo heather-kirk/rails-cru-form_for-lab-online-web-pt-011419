@@ -20,4 +20,7 @@ class SongsController < ApplicationController
   
   def update
   end 
+  
+  private 
+  
 end 

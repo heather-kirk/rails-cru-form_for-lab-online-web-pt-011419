@@ -13,11 +13,18 @@ class GenresController < ApplicationController
   end 
   
   def create
+    @genre = Genre.new
   end 
   
   def edit
   end 
   
   def update
+  end 
+  
+  private 
+  
+  def genre_params
+    params
   end 
 end 
